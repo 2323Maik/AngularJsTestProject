@@ -18,6 +18,8 @@ function calculateNumericValue() {
   for (var i = 0; i < student.name.length; i++) {
     totalNameValue = student.name.charCodeAt(i);
   }
-  var output = document.getElementById('output').innerText = totalNameValue;
-  return "The value of each character of the name is: " + output;
+  var output = "The numeric values of the person's name is: " + totalNameValue;
+
+  document.getElementById('output').innerText = output;
+
 }
