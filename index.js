@@ -16,7 +16,7 @@ function calculateNumericValue() {
 
   var totalNameValue = 0;
   for (var i = 0; i < student.name.length; i++) {
-    totalNameValue += student.name.charCodeAt(i);
+    totalNameValue += parseInt(student.name.charCodeAt(i));
   }
   var output = "The numeric values of the person's name is: " + totalNameValue;
 
